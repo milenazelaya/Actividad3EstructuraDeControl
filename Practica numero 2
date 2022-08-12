@@ -1,0 +1,189 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/milenazelaya/Actividad3EstructuraDeControl/blob/master/Practica%20numero%202\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "c= 27 "
+      ],
+      "metadata": {
+        "id": "pe5oUQmnkWrW"
+      },
+      "execution_count": 1,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def converCaF(c):\n",
+        "  return c*9/5  + 32"
+      ],
+      "metadata": {
+        "id": "Jikhu5o0ma2K"
+      },
+      "execution_count": 10,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Celsius a F:\", converCaF(c))"
+      ],
+      "metadata": {
+        "id": "JVWEiticoCTn",
+        "outputId": "12de2c98-11ff-41d1-d0bb-abf5d69f0e56",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Celsius a F: 80.6\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "gradosCiudades = [27, 30, 32, 35, 40, 45]"
+      ],
+      "metadata": {
+        "id": "ioG6K8YdphMb"
+      },
+      "execution_count": 12,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (gradosCiudades, \"respuesta\", list (map (converCaF, gradosCiudades)))"
+      ],
+      "metadata": {
+        "id": "PC6_8JhXqEHS",
+        "outputId": "6b9da68e-5e49-4617-e25c-1cee22592c40",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[27, 30, 32, 35, 40, 45] respuesta [80.6, 86.0, 89.6, 95.0, 104.0, 113.0]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "gradoCiudad = [80.6, 86.0, 89.6, 95.0, 104.0, 113.0]\n",
+        "def converFaC (e):\n",
+        "  return (e-32) * 5/9\n",
+        "print(\"respuesta:\", list(map(converFaC, gradoCiudad)))\n"
+      ],
+      "metadata": {
+        "id": "J-cUAMtyrGig",
+        "outputId": "006eadd5-172b-47ea-8284-929435a45372",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "respuesta: [26.999999999999996, 30.0, 32.0, 35.0, 40.0, 45.0]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Gradociudad = [80.6, 86.0, 89.6, 95.0, 104.0, 113.0]\n",
+        "Gradociudad\n",
+        "print (\"respuesta\", list (map(lambda c: c-32 * 5/9, Gradociudad)))\n"
+      ],
+      "metadata": {
+        "id": "DMxY8PsjwKxn",
+        "outputId": "d55645eb-0bab-4223-f4d3-58e6a93518f8",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 33,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "respuesta [62.822222222222216, 68.22222222222223, 71.82222222222222, 77.22222222222223, 86.22222222222223, 95.22222222222223]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "joYVc_Xis0mM"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "knHAMUc01UTV"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Nueva sección"
+      ],
+      "metadata": {
+        "id": "sNLf_pjB1ddF"
+      }
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "collapsed_sections": [],
+      "name": "Te damos la bienvenida a Colaboratory",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
